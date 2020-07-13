@@ -1,0 +1,13 @@
+<div class="container">
+    <table class="table">
+        <tr>
+            <th>PID</th><th>PName</th><th>Price</th><th>Stock</th>
+        </tr>
+        <tr *ngFor="let item of list">
+            <td>{{item.pid}}</td>
+            <td>{{item.pname}}</td>
+            <td>{{item.price}}</td>
+            <td>{{item.stock}}</td>
+        </tr>
+    </table>
+</div>
